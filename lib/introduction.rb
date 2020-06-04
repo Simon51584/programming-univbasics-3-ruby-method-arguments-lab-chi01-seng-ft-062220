@@ -10,11 +10,11 @@ end
 
 introduction_with_language("Dan", "Ember.js")
 
-def introduction_with_language_optional(name, language = "Python")
+def introduction_with_language_optional(name, language = "Ruby")
   puts "Hi, ny name is #{name} and I am learning to program in #{language}."
 end 
 
-introduction_with_language_optional("Edwin")
+introduction_with_language_optional("Edwin", "Python")
 
 # Write your code here. If you get stuck, at the very bottom of this lab we've included
 # the answers. You should ONLY check those answers if you get totally stuck. The important
